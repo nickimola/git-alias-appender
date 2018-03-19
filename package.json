@@ -1,0 +1,16 @@
+{
+  "name": "gitconfig",
+  "version": "1.0.0",
+  "description": "Append new aliases after git pull using hooks",
+  "main": "index.js",
+  "repository": "https://gist.github.com/267d6156f049b652c3b4373a88c92239.git",
+  "author": "Nicholas Lazzerini <nicholas.lazzerini.external@ynap.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "ini": "^1.3.5"
+  }
+}
